@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway|Roboto');
+
+* {
+  /* font-family: 'Open Sans Condensed', sans-serif; */
+  /* font-family: 'Open Sans', sans-serif; */
+  /* font-weight: 300; */
+  /* font-family: 'Nunito', sans-serif; */
+  /* font-family: 'Rubik', sans-serif; */
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Raleway', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+  #mainNav {
+    background-color: #222;
+  }
+
+  #mainNav .navbar-brand {
+    /* font-family: 'Montserrat', sans-serif; */
+    /* color: #ae4e1d; */
+    color:  #e84118;
+  }
+
+
+  .header {
+    /* margin-top: 56px; */
+    color: #eee;
+    background-color: #222;
+    background-image: url("images/handshake-medium-darker.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 95%;
+    /* background-attachment: fixed; */
+    /* background-blend-mode: screen; */
+    /* image-resolution: 100dpi; */
+    text-align: center;
+  }
+
+  .header .about {
+    padding-top: 12rem;
+  }
+
+  .header .about h1 {
+    /* font-family: 'Rubik', sans-serif; */
+    /* font-weight: 300; */
+    /* font-family: 'Montserrat', sans-serif; */
+    font-weight: 600;
+    font-size: 34px;
+  }
+
+  .header .about p {
+    padding-top: 1rem;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-size: 20px;
+  }
+
+  .about .btn-custom {
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Raleway', sans-serif; */
+    /* font-weight: 400; */
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    padding: 0.75rem 1.25rem;
+    /* background-color: #ae4e1d; */
+    border: none;
+    /* background-color: #9e441a; */
+    background-color: #e84118;
+    border-radius: 40rem;
+    /* border-color: #2980b9;
+    background-color: #2980b9; */
+    /* font-family: 'Montserrat', sans-serif; */
+  }
+
+  .about .btn-custom:hover {
+    color:  #e84118;
+    background-color: #eee;
+  }
+
+  .services, .contact {
+    padding: 5rem 2rem;
+  }
+
+  .services .title, .contact .title {
+    /* border-top: 2px solid #3498db; */
+    /* border-bottom: 2px solid #3498db; */
+    padding: 1rem 0;
+    text-transform: uppercase;
+  }
+
+  .service-item {
+    padding: 2rem 0;
+  }
+  .service-item h4 {
+    padding-top: 0.5rem;
+    /* color:  #d35400; */
+    /* color: #D33636; */
+    color:  #e84118;
+  }
+
+
+  .contact, .footer {
+    background-color: #222;
+    color: #eee;
+  }
+
+  .contact .form-control {
+    border-radius: 0.5rem;
+  }
+  .contact .btn-custom {
+    /* background-color: #3498db;
+    border-color: #3498db; */
+
+    border-radius: 40rem;
+  }
+
+  .footer .social-media i {
+    margin: 2vh;
+  }
+
+
+@media (min-width: 992px) {
+
+  .header {
+    /* margin-top: 56px; */
+    background-image: url("../images/ship-large-edited2.jpg");
+    background-size: cover;
+    /* background-position: 50% 100%; */
+    background-color: #222;
+    background-attachment: fixed;
+    color: #eee;
+  }
+
+  .header .about {
+    padding-top: 22rem;
+    padding-bottom: 4rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  .header .about h1 {
+    /* font-family: "FontAwesome", sans-serif; */
+    font-size: 68px;
+  }
+
+  .header .about p {
+    font-size: 24px;
+  }
+
+  .header .content .subtitle {
+    padding: 1rem;
+  }
+
+  .header .btn-custom {
+    margin-top: 1rem;
+    border-color: #9e441a;
+    background-color: #9e441a;
+  }
+
+  .page-image {
+    background: url("../images/containers-large-crop.jpeg") no-repeat center center;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 10rem;
+  }
+
+  .blank {
+    padding: 10rem;
+    background-color: #222;
+
+  }
+
+  .services {
+    padding: 4rem 4rem 4rem 4rem;
+  }
+
+  .services .title {
+    margin-bottom:2rem;
+  }
+
+  .services .section {
+    padding: 4rem 0 2rem 0;
+  }
+}
+.navbar-shrink {
+  background-color: #222;
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  z-index: 1;
+}

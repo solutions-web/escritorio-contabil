@@ -1,0 +1,87 @@
+/* @import url('https://fonts.googleapis.com/css?family=Dosis'); */
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300'); */
+* {
+  /* font-family: 'Dosis', sans-serif; */
+  /* font-family: 'Open Sans Condensed', sans-serif; */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#mainNav {
+  /* background-color: #222; */
+}
+
+.header {
+  /* margin-top: 56px; */
+  background-image: url("../images/ship-large-edited2.jpg");
+  background-size: cover;
+  /* background-position: 50% 100%; */
+  background-color: #222;
+  background-attachment: fixed;
+  color: #eee;
+}
+
+.header .about {
+  padding-top: 22rem;
+  padding-bottom: 4rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.header .about h1 {
+  font-family: "Font Awesome 5 Brands" !important;
+  font-size: 68px;
+}
+
+.header .about p {
+  font-size: 24px;
+}
+
+.header .content .subtitle {
+  padding: 1rem;
+}
+
+.header .btn-custom {
+  margin-top: 1rem;
+  border-color: #9e441a;
+  background-color: #9e441a;
+}
+
+.page-image {
+  background: url("../images/containers-large-crop.jpeg") no-repeat center center;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  padding: 10rem;
+}
+
+.blank {
+  padding: 10rem;
+  background-color: #222;
+
+}
+
+.services {
+  padding: 4rem 4rem 4rem 4rem;
+}
+
+.services .title {
+  margin-bottom:2rem;
+}
+
+.services .section {
+  padding: 4rem 0 2rem 0;
+}
+
+.contact {
+  margin-top: 0 !important;
+  background-color: #222;
+  color: #eee;
+}
+
+.footer {
+  background-color: #222;
+  color: #eee;
+}
